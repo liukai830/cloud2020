@@ -26,6 +26,6 @@ eureka:
     service-url:
       # Eureka Server注册地址
       # 单机版本
-      # defaultZone: http://localhost:7001/eureka/
+       defaultZone: http://localhost:7001/eureka/
       # 集群版本，有几个server就写几个地址
-      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+#      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
