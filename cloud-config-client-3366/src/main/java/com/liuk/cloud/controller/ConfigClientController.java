@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Description ConfigClientController
- * Created by liuk on 2020/8/13 21:35 .
+ * Created by liuk on 2020/8/23 20:14 .
  * @Version 1.0
  */
 @RestController
 @RefreshScope
 public class ConfigClientController {
-
     @Value("${server.port}")
     private String port;
 
@@ -24,5 +23,4 @@ public class ConfigClientController {
     public String getConfigInfo(){
         return port + ": " + configInfo;
     }
-
 }
