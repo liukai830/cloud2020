@@ -32,6 +32,8 @@
       <module>cloud-stream-rabbitmq-provider8801</module>
       <module>cloud-stream-rabbitmq-provider8802</module>
       <module>cloud-stream-rabbitmq-provider8803</module>
+      <module>cloud-stream-rabbitmq-producer8811</module>
+      <module>cloud-stream-rabbitmq-consumer8812</module>
   </modules>
 
 
